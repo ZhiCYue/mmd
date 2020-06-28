@@ -1,2 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+autogenerate
+bin
+logs
 node_modules
+npm-debug.log
 package-lock.json
+# Exclude compiled files
+build
+output
+
+# Exclude IDE project folders
+.idea
+.vscode
+.project
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_STORE
+
+.js.map
+
+# vi files
+.tern-project
