@@ -1,4 +1,6 @@
-class BaseModel {
+import EventEmiter from '../event';
+
+class BaseModel extends EventEmiter {
     constructor(data) {
         this.data = data;
         this.setData('name', 'base');
